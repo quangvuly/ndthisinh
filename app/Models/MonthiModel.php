@@ -17,20 +17,5 @@ class MonthiModel extends Model
         return $this->belongsToMany(User::class, 'list_exam', 'subject_id', 'user_id');
     }
 
-    // public function linhvuc()
-    // {
-    //     return $this->hasMany(LinhvucModel::class,'donvi_id','id');
-    // }
-
-    // public function linhvucthutuc()
-    // {
-    //     return $this->hasManyThrough(
-    //         ThutucModel::class, 
-    //         LinhvucModel::class,
-    //         'donvi_id',
-    //         'linhvuc_id',
-    //         'id',
-    //         'id'
-    //     );
-    // }
+   
 }

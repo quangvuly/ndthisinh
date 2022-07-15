@@ -36,7 +36,7 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
                     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="">Logout</a></li>
+                        <li><a class="dropdown-item" href="{{route('signout')}}">Logout</a></li>
                     </ul>
                 </li>
             </ul>
@@ -47,7 +47,7 @@
                     <div class="sb-sidenav-menu">
                         <div class="nav">
                             <div class="sb-sidenav-menu-heading">Danh mục</div>
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="{{route('url.dashboard')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                 Dashboard
                             </a>
@@ -58,17 +58,17 @@
 
                             <div class="sb-sidenav-menu-heading">Giám sát</div>
  
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="{{route('url.admin.getschedule')}}">
                                 <div class="sb-nav-link-icon"><i class="fas fa-clock"></i></div>
                                 Hàng đợi
                             </a>
                             
                             <div class="sb-sidenav-menu-heading">Model</div>
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="http://localhost:8088/image/process">
                                 <div class="sb-nav-link-icon"><i class="fas fa-images"></i></div>
                                 Xử lý hình ảnh
                             </a>
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="http://localhost:8088/image/training">
                                 <div class="sb-nav-link-icon"><i class="fas fa-graduation-cap"></i></div>
                                 Training model
                             </a>
@@ -90,7 +90,7 @@
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; 2021 - ỨNG DỤNG XÁC MINH THÔNG TIN THÍ SINH TRONG KÌ THI DỰA TRÊN CÔNG NGHỆ NHẬN DIỆN KHUÔN MẶT. 196005048 - Phan Thanh Triều</div>
+                            <div class="text-muted">Copyright &copy; 2021 - ỨNG DỤNG XÁC MINH THÔNG TIN THÍ SINH TRONG KÌ THI DỰA TRÊN CÔNG NGHỆ NHẬN DIỆN KHUÔN MẶT. 196005048 - PHAN THANH TRIỀU</div>
 
                         </div>
                     </div>

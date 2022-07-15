@@ -1,6 +1,6 @@
 @extends('master')
 
-@section('title','Trang chủ Dịch vụ công')
+@section('title','Nhận diện khuôn mặt')
 
 @section('extraCSS')
 

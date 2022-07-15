@@ -20,7 +20,7 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
   <!-- Core theme CSS (includes Bootstrap)-->
   <link href="{{ asset('assets/css/styles.css')}}" rel="stylesheet" />
- 
+  <link href="{{ asset('assets/css/mystyle.css') }}" rel="stylesheet">
 
   @yield('extraCSS')
 </head>
@@ -44,7 +44,10 @@
   <!-- SimpleLightbox plugin JS-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
   <!-- Core theme JS-->
+  <script src="{{ asset('assets/vendor/jquery/jquery.min.js') }}"></script>
+  <script src="{{ asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
   <script src="{{ asset('assets/js/scripts.js')}}"></script>
+
   <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
   @yield('extraJS')
    

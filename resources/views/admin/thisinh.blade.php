@@ -37,11 +37,11 @@
                         <td>{{$item->email}}</td>
                         <td>{{$item->birthday}}</td>
                         <td>{{$item->idcard}}</td>
-                        <td>
+                        {{-- <td>
                             <a style="padding-left: 5px" href=""><i class="fas fa-pen"></i> </a>
                             <a style="padding-left: 5px" href=""><i class="fas fa-user"></i> </a>
                             <a style="padding-left: 5px" href=""><i class="fas fa-trash"></i> </a>
-                        </td>
+                        </td> --}}
                     </tr>
                     @endforeach
                     
